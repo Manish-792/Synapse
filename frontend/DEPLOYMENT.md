@@ -120,6 +120,7 @@ The build process is optimized for Vercel:
    - Check Node.js version (requires >=18.0.0)
    - Verify all dependencies are installed
    - Check for TypeScript errors
+   - If you see React version conflicts, use `--legacy-peer-deps` flag
 
 2. **API Connection Issues**:
    - Verify `VITE_API_URL` is set correctly
