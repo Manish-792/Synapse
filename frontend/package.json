@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "npx vite build",
+    "dev": "npx vite",
+    "preview": "npx vite preview"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
