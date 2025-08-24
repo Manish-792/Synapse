@@ -1,0 +1,13 @@
+{
+  "name": "synapse-ai",
+  "version": "1.0.0",
+  "description": "Synapse AI - Full Stack AI Chat Agent",
+  "scripts": {
+    "build": "cd frontend && npm install --legacy-peer-deps && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "install-deps": "cd frontend && npm install --legacy-peer-deps"
+  },
+  "keywords": ["ai", "chatbot", "react", "nodejs"],
+  "author": "Your Name",
+  "license": "MIT"
+}
