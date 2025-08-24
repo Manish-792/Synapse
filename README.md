@@ -2,8 +2,9 @@
 
 > An autonomous AI agent with a dynamic, 3D user interface, capable of multi-step reasoning and real-time tool integration.
 
-**[Live Demo](https://synapse-y3ig.onrender.com/)** ![Synapse AI Agent UI](<img width="1889" height="901" alt="image" src="https://github.com/user-attachments/assets/056cbf9f-2b53-45ec-88e8-b7c5ce8751c5" />
-)
+**[Live Demo](https://synapse-y3ig.onrender.com/)** 
+
+<img width="1889" height="901" alt="image" src="https://github.com/user-attachments/assets/056cbf9f-2b53-45ec-88e8-b7c5ce8751c5" />
 <img width="1896" height="905" alt="image" src="https://github.com/user-attachments/assets/0245bdcd-4d48-4d7e-8f75-95ab6fb7d48f" />
 <img width="1902" height="906" alt="image" src="https://github.com/user-attachments/assets/61d07fd2-5752-4336-8655-eee0b147ec26" />
 <img width="1897" height="905" alt="image" src="https://github.com/user-attachments/assets/558272ce-747e-4ee8-9eea-65eea79ef397" />
