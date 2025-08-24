@@ -4,12 +4,12 @@ set -e
 echo "🚀 Starting build process..."
 echo "📁 Current directory: $(pwd)"
 
-# Clean up any existing node_modules and package-lock.json to avoid Rollup issues
-echo "🧹 Cleaning up existing dependencies..."
-rm -rf node_modules package-lock.json
+# Force clean install to avoid Rollup issues
+echo "🧹 Force cleaning existing dependencies..."
+rm -rf node_modules package-lock.json .npm
 
 echo "📦 Installing dependencies with clean slate..."
-npm install --legacy-peer-deps
+npm install --legacy-peer-deps --force
 
 echo "🔨 Building the application..."
 npm run build

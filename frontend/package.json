@@ -8,6 +8,7 @@
     "build": "vite build",
     "build:clean": "rm -rf node_modules package-lock.json && npm install --legacy-peer-deps && npm run build",
     "build:render": "npm install --legacy-peer-deps && npm run build",
+    "build:force": "rm -rf node_modules package-lock.json && npm install --legacy-peer-deps --force && npm run build",
     "dev": "vite",
     "preview": "vite preview"
   },

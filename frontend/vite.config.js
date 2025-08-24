@@ -13,11 +13,18 @@ export default defineConfig({
     },
   },
   build: {
+    minify: 'esbuild',
     rollupOptions: {
       external: ['@rollup/rollup-linux-x64-gnu'],
     },
   },
   optimizeDeps: {
-    exclude: ['@rollup/rollup-linux-x64-gnu']
+    exclude: ['@rollup/rollup-linux-x64-gnu'],
+    esbuildOptions: {
+      target: 'es2020',
+    },
+  },
+  esbuild: {
+    target: 'es2020',
   }
 })
