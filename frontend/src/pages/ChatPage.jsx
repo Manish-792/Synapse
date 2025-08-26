@@ -23,8 +23,8 @@ const ChatPage = () => {
     setIsLoading(true)
 
     try {
-      // Get API URL with fallback - Update this to your deployed backend URL
-      const apiUrl = import.meta.env.VITE_API_URL || 'https://synapse-ai-backend.onrender.com'
+      // Get API URL with fallback
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001'
       
       const response = await fetch(`${apiUrl}/chat`, {
         method: 'POST',
